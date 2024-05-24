@@ -8,8 +8,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
-// Instead of generating getter and setter we can use -
-// Lombok dependency to remove boilerplate code
+// We can use lombok dependency to remove boilerplate code
 @Entity
 public class Contact{
 
