@@ -27,6 +27,7 @@ public class Contact{
 
     // @Enumerated(EnumType.String)
     private LinkPrecedence linkPrecedence;
+    
 
     public Contact(Long id, String email, String phoneNumber, Long linkedId, LinkPrecedence linkPrecedence) {
         this.id = id;
