@@ -8,6 +8,8 @@ public class RApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(RApplication.class, args);
+
+		System.out.println("SpringBoot Started...");
 	}
 
 }
